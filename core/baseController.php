@@ -2,6 +2,9 @@
 abstract class baseController{
 
 	protected $_registry;
+    protected $_controller;
+    protected $_action;
+    protected $_template;
 
 	protected $load;
 
