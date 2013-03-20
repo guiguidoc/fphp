@@ -1,5 +1,4 @@
 <?php
 define('DS', DIRECTORY_SEPARATOR);
-define('ROOT', dirname(__FILE__));
-$url = $_GET['url'];
+define('ROOT', '/home/gdelecourt/dev/fphp/');
 require_once (ROOT . '/core/init.php');
